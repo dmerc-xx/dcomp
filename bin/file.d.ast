@@ -1,0 +1,9 @@
+ROOT
+    { cargo => a, line => 1, type => ELEMENT, pos => 0 }
+        { cargo => li, line => 2, type => ELEMENT, pos => 0 }
+        { cargo => #yo , line => 2, type => ATTRIBUTEID, pos => 3 }
+        { cargo => .haha , line => 2, type => ATTRIBUTECLASS, pos => 7 }
+        { cargo => :kci, line => 2, type => ATTRIBUTE, pos => 13 }
+        { cargo => 'yoyo', line => 2, type => ATTRIBUTEVALUE, pos => 18 }
+    { cargo => .<ul><li><li></ul>, line => 3, type => SOURCE, pos => 0 }
+    { cargo => $d, line => 4, type => VAR, pos => 0 }
